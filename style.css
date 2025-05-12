@@ -1,0 +1,739 @@
+ *{
+    padding: 0;
+    margin: 0;
+ }
+.topnav{
+    padding: 30px 40px;
+}
+ li{
+    list-style: none;
+ }
+
+ .topnav__wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 60px;
+
+   
+    margin: auto;
+ }
+
+
+.navbar{
+    background-color: rgb(75, 70, 70);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1280px;
+    padding: 20px 20px;
+    margin: auto;
+}
+
+.nav__textinimg{
+
+font-style: normal;
+width: 180px;
+
+font-weight: 400;
+font-size: 12px;
+line-height: 15px;
+
+color: #FFFFFF;
+
+}
+
+.nav__btn{
+width: 120px;
+height: 30px;
+background: #FFFFFF;
+border-radius: 30px;
+
+}
+
+/* 
+TITLE */
+
+.title{
+    width: 1320px;
+    padding: 30px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: antiquewhite;
+    margin: auto;
+
+}
+
+.title__wrapper{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin: auto;
+
+
+}
+
+.title__ul{
+    display: flex;
+    gap: 40px;
+
+    /* Доставка и оплата */
+
+
+
+
+}
+
+.title__li{
+    font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 15px;
+/* identical to box height */
+
+color: #000000;
+
+}
+
+
+.katalog__wrapper{
+    background-image: url(./img/intriImg.png);
+
+    background-repeat: no-repeat;
+    background-size: 1850px;
+    width: 1320px;
+    height: 500px;
+    padding-top: 100px;
+
+
+}
+
+
+
+/* katalog */
+
+.katalog{
+    
+    align-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    
+background-color: #ff0000;
+width: 1320px;
+height: 600px;
+
+
+
+}
+
+.katalog__text{
+    /* Вам нужна качественная и недорогая тротуарная плитка в Волоколамске? Мы готовы предложить отличную возможность приобрести современные модели с высокими показателями эстетики и механической стойкости напрямую от производителя – компании «Мастер Строй». */
+
+font-style: normal;
+padding: 20px 0;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+text-align: center;
+width: 720px;
+
+color: #FFFFFF;
+display: flex;
+align-items: center;
+justify-content: center;
+margin: auto;
+
+
+}
+
+
+.katalog__h3{
+    
+font-style: normal;
+width: 782px;
+padding: 20px 0;
+font-weight: 700;
+font-size: 40px;
+line-height: 49px;
+text-align: center;
+
+color: #FFFFFF;
+
+display: flex;
+align-items: center;
+justify-content: center;
+margin: auto;
+
+}
+
+.katalog__btn{
+width: 200px;
+height: 50px;
+border-radius: 40px;
+background-color: rgb(253, 56, 7);
+color: #FFFFFF;
+
+display: flex;
+align-items: center;
+justify-content: center;
+margin: auto;
+
+}
+
+
+/* KAfel */
+
+
+.kafel__h3{
+padding: 60px 0;
+font-style: normal;
+font-weight: 700;
+font-size: 35px;
+line-height: 43px;
+/* identical to box height */
+text-align: center;
+
+color: #000000;
+
+
+}
+
+
+
+.kafel__text{
+
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+text-align: center;
+
+color: #000000;
+
+
+}
+
+
+.kafel__wrapper{
+    display: flex;
+    width: 1320px;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 20px 0;
+    margin: auto;
+}
+
+.kafel__type{
+    border: 1px solid rgb(66, 57, 57);
+    padding: 60px 30px;
+    border-radius: 20px;
+    box-shadow: 5px 5px rgb(56, 52, 52);
+}
+
+
+
+.kafel__type:hover{
+    background-color: rgb(246, 242, 238);
+
+}
+
+.kafel{
+    border: 1px solid;
+    width: 1312px;
+    margin: auto;
+    height: 900px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.about{ 
+    background-color: rgb(74, 73, 73);
+    margin: auto;
+    width: 1315px;
+}
+
+
+
+.about__wrapper{
+    display: flex;
+}
+
+
+.about__h5{
+
+font-style: normal;
+font-weight: 700;
+font-size: 35px;
+line-height: 43px;
+/* identical to box height */
+text-align: center;
+
+color: #FFFFFF;
+padding-top: 180px;
+
+
+}
+
+
+.about__h6{
+/* «Мастер Строй» - надежная и недорогая тротуарная плитка в Волоколамском районе */
+
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+width: 490px;
+margin-left: 50px;
+color: #FFFFFF;
+
+}
+
+
+.about__text{
+
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 15px;
+
+color: #FFFFFF;
+width: 300px;
+margin: auto;
+margin-left: 100px;
+padding: 30px;
+
+
+
+}
+
+
+.zoo{
+    width: 1312px;
+    background-color: rgb(74, 73, 73);
+    margin: auto;
+}
+
+.zoo__wrappe{
+    display: inline-block;
+    margin-top: auto;
+
+    width: 1312px;
+}
+
+.zoo__left{
+    display: inline-block;
+    
+
+    /* display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    flex-wrap: wrap; */
+
+
+
+}
+
+.zoo__text__img{
+    /* Доставка и разгрузка плитки краном-манипулятором */
+
+
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+
+color: #FFFFFF;
+
+
+}
+
+.zoo__right{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    background-color: #ff0000;
+    width: 500px;
+    height: 300px;
+
+}
+
+
+.zoo__h6{
+
+font-style: normal;
+padding: 20px 30px;
+font-weight: 700;
+font-size: 35px;
+line-height: 43px;
+/* identical to box height */
+text-align: center;
+
+color: #FFFFFF;
+
+
+}
+
+
+.zoo__text__all{
+width: 200px;
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+color: #FFFFFF;
+display: flex;
+
+
+}
+
+
+.zoo__all{
+
+padding: 30px 30px;
+margin-left: 300px;
+gap: 30px;
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+.doo{
+    display: inline-block;
+    align-items: center;
+
+    width: 400px;
+
+}
+
+
+.work{
+    width: 1312px;
+    margin: auto;
+    border: 1px solid;
+}
+
+.work__wrapper{
+    padding: 30px 30px;
+    
+}
+
+.work__h3{
+
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 35px;
+line-height: 43px;
+/* identical to box height */
+text-align: center;
+
+color: #000000;
+
+
+}
+
+.work__text{
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 15px;
+text-align: center;
+
+color: #000000;
+
+
+}
+
+
+.imeges{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.my{
+    background-color: rgb(74, 73, 73);
+width: 1320px;
+height: 680px;
+margin: auto;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.my__wrapper{
+
+}
+
+
+.my__h3{
+
+font-style: normal;
+padding: 30px 30px;
+font-weight: 700;
+font-size: 35px;
+line-height: 43px;
+/* identical to box height */
+text-align: center;
+
+color: #FFFFFF;
+
+ 
+}
+
+.my__box1{
+    background-color: #FFFFFF;
+    width: 250px;
+    height: 250px;
+    
+}
+
+
+.my__box__text{
+
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+
+color: #000000;
+padding: 0px 20px;
+
+
+}
+
+.my__box{
+    display: flex;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+
+.mag{
+    border: 1px solid;
+    width: 1320px;
+    height: 200px;
+    margin: auto;
+}
+
+.mag__wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 20px;
+    gap: 80px;
+
+}
+
+.map{
+
+width: 1320px;
+margin: auto;
+padding: 270px 190px;
+}
+
+
+.tovar{
+    border: 1px solid;
+    width: 1320px;
+    margin: auto;
+}
+
+
+.tovar__card{
+    display: flex;
+}
+
+.tovar__title{
+
+font-style: normal;
+font-weight: 700;
+font-size: 35px;
+line-height: 43px;
+/* identical to box height */
+text-align: center;
+
+color: #000000;
+
+ 
+}
+
+.tovar__h3{
+    /* Брусчатка 200x100x50 */
+padding: 6px 0px;
+font-style: normal;
+font-weight: 700;
+font-size: 19px;
+line-height: 17px;
+/* identical to box height */
+
+color: #000000;
+
+
+}
+
+.tovar__text{
+
+font-style: normal;
+padding: 2px 0px;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+color: #000000;
+
+
+}
+
+.color__in{
+    width: 20px;
+    height: 20px;
+    background-color: #473d3d;
+    display: inline-block;
+}
+
+.color__in:nth-child(2){
+    background-color: grey;
+}
+
+.color__in:nth-child(3){
+    background-color: rgb(210, 196, 40);
+}
+
+.color__in:nth-child(4){
+    background-color: rgb(151, 133, 42);
+}
+
+.color__in:nth-child(5){
+    background-color: rgb(211, 242, 13);
+}
+
+.color__in:nth-child(6){
+    background-color: rgb(69, 61, 61);
+}
+
+.color__in:nth-child(7){
+    background-color: grey;
+}
+
+.color__in:nth-child(8){
+    background-color: rgb(233, 101, 101);
+}
+
+
+.tovar__card-left{
+    border: 1px solid  grey;
+    padding: 20px 20px;
+    /* box-shadow: 9px 8px 10px grey; */
+
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+
+}
+
+.tovar__card-right{
+    padding: 0px 20px;
+    border: 1px solid grey;
+    width: 100px;
+    height: 350px;
+    background-color: rgb(74, 73, 73);
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.tovar__h4{
+    /* Серый 440 руб кв/м Красный 500 руб кв/м Коричневый 550 руб кв/м Желтый 700 руб кв/м Другие цвета по запросу */
+font-style: normal;
+font-weight: 1000;
+font-size: 15px;
+line-height: 149.4%;
+padding-top: 3px;
+/* or 18px */
+
+color: #FFFFFF;
+
+
+}
+
+.tovar__tex{
+    /* Серый 440 руб кв/м Красный 500 руб кв/м Коричневый 550 руб кв/м Желтый 700 руб кв/м Другие цвета по запросу */
+
+
+font-style: normal;
+font-weight: 800;
+font-size: 15px;
+line-height: 18px;
+
+color: #d9cece;
+
+
+}
+
+.tovar__about{
+    padding: 10px 0px;
+}
+
+.tovar__plus{
+    width: 40px ;
+    height: 40px;
+    background-color: #ec8e14;
+    /* Group 31 */
+
+display: flex;
+margin-top: 85px;
+align-items: center;
+justify-content: center;
+margin-left: 80px;
+
+
+
+
+
+/* Rectangle 60 */
+
+
+
+background: #E05100;
+border-radius: 20px 0px;
+
+
+/* Vector 3 */
+
+
+
+
+}
+
+.tovar__cards{
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 20px;
+    gap: 20px;
+}
